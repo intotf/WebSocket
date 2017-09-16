@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>首页</h2>
+<div id="webmessage">webSocket 内容</div>
+<div id="backMsg"></div>
+<script src="~/Content/websockets/json2.js"></script>
+<script src="~/Content/websockets/swfobject.js"></script>
+<script src="~/Content/websockets/web_socket.js"></script>
+<script src="~/Content/websockets/jsonWebSocket.js"></script>
+<script src="~/Content/websockets/webMessage.js"></script>
+<script type="text/javascript">
+    initWs('@DateTime.Now.ToFileTimeUtc()');
+</script>

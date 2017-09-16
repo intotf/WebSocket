@@ -1,0 +1,1 @@
+E:\学习资料\GitHub\WebSocket\TcpSocket\obj\Debug\TcpSocket.csprojResolveAssemblyReference.cache

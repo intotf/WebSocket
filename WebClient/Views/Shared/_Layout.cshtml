@@ -1,0 +1,43 @@
+﻿
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Styles")
+    @RenderSection("styles", required: false)
+    @Scripts.Render("~/Scripts")
+</head>
+<body>
+
+    <div class="navbar navbar-inverse ">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">WebSocket 演示</a>
+            </div>
+            <div class="nav navbar-nav navbar-right">
+                <form class="navbar-form navbar-right" id="userInfo">
+                    <input type="hidden" value="" id="userId" name="userId" />
+                    <input type="hidden" value="" id="userName" name="userName" />
+                    <div class="form-group">
+                        <input type="text" placeholder="设置昵称" name="name" id="name" class="form-control">
+                        <input type="hidden" value="@DateTime.Now.ToFileTimeUtc()" id="id" />
+                    </div>
+                    <button type="button" onclick="UserLogin()" class="btn btn-success">登录</button>
+                </form>
+            </div><!--/.navbar-collapse -->
+        </div>
+    </div>
+
+    <div class="container">
+        @RenderBody()
+        <hr>
+        <footer>
+            <p>&copy; @DateTime.Now.Year  QQ42309073, Inc.</p>
+        </footer>
+    </div>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

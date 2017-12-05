@@ -1,1 +1,11 @@
 E:\学习资料\GitHub\WebSocket\TcpSocket\obj\Debug\TcpSocket.csprojResolveAssemblyReference.cache
+E:\学习资料\GitHub\WebSocket\TcpSocket\bin\Debug\jsonWebSocket.js
+E:\学习资料\GitHub\WebSocket\TcpSocket\bin\Debug\TcpSocket.exe.config
+E:\学习资料\GitHub\WebSocket\TcpSocket\bin\Debug\TcpSocket.exe
+E:\学习资料\GitHub\WebSocket\TcpSocket\bin\Debug\TcpSocket.pdb
+E:\学习资料\GitHub\WebSocket\TcpSocket\bin\Debug\NetworkSocket.dll
+E:\学习资料\GitHub\WebSocket\TcpSocket\bin\Debug\NetworkSocket.pdb
+E:\学习资料\GitHub\WebSocket\TcpSocket\bin\Debug\NetworkSocket.xml
+E:\学习资料\GitHub\WebSocket\TcpSocket\obj\Debug\TcpSocket.exe
+E:\学习资料\GitHub\WebSocket\TcpSocket\obj\Debug\TcpSocket.pdb
+E:\学习资料\GitHub\WebSocket\TcpSocket\bin\Debug\Topshelf.dll

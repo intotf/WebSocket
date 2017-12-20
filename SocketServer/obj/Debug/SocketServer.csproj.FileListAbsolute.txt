@@ -22,3 +22,4 @@ E:\学习资料\GitHub\WebSocket\SocketServer\bin\Debug\NetworkSocket.xml
 E:\学习资料\GitHub\WebSocket\SocketServer\obj\Debug\SocketServer.csprojResolveAssemblyReference.cache
 E:\学习资料\GitHub\WebSocket\SocketServer\obj\Debug\SocketServer.exe
 E:\学习资料\GitHub\WebSocket\SocketServer\obj\Debug\SocketServer.pdb
+E:\学习资料\GitHub\WebSocket\SocketServer\bin\Debug\Newtonsoft.Json.xml

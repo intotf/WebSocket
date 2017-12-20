@@ -30,10 +30,11 @@ function UserLogin() {
                 $("#sendButton").removeAttr("disabled");
             }
         });
+
         //接收服务端发送过来的信息
         // message = 消息内容；sender 发送者；time 发送时间
-        ws.bindApi("onWebNotify", function (message, sender, time) {
-            var msg = "<br>" + sender + "</br> [" + time + "]说:" + message + "\n";
+        ws.bindApi("onWebNotify", function (data) {
+            var msg = "<br/> <b>" + data.sender + "</b> [" + data.SendTime + "]对你说:" + data.Content + "\n";
             $("#txtMsg").append(msg);
         });
     };
@@ -48,17 +49,8 @@ function UserLogin() {
 }
 
 //发送消息给指定人员
-function SendMessage(userid, userName) {
-    ws.invokeApi("SendMessage", ['3', "我登录成功了"], function (data) {
-        if (!data.State) {
-            alert(data.Message);
-        }
-    });
-}
-
-//发送消息给所有人员
-function SendAllMessage(msg) {
-    ws.invokeApi("SendAllMessage", [msg], function (data) {
+function SendMessageToUsers(users, msg) {
+    ws.invokeApi("SendMessageToUsers", [users, msg], function (data) {
         console.log(data);
     });
 }

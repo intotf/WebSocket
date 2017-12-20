@@ -5,3 +5,4 @@ E:\学习资料\GitHub\WebSocket\NetworkSocket\bin\Debug\NetworkSocket.pdb
 E:\学习资料\GitHub\WebSocket\NetworkSocket\obj\Debug\NetworkSocket.dll
 E:\学习资料\GitHub\WebSocket\NetworkSocket\obj\Debug\NetworkSocket.pdb
 E:\学习资料\GitHub\WebSocket\NetworkSocket\obj\Debug\NetworkSocket.Net45.csprojResolveAssemblyReference.cache
+E:\学习资料\GitHub\WebSocket\NetworkSocket\bin\Debug\Microsoft.SqlServer.Types.dll

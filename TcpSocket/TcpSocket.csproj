@@ -53,12 +53,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NetworkSocket\NetworkSocket.Net45.csproj">
-      <Project>{80d0fa44-523b-4e68-bdc2-b12901d5855b}</Project>
-      <Name>NetworkSocket.Net45</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

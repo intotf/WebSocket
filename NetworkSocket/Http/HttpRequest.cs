@@ -206,7 +206,7 @@ namespace NetworkSocket.Http
             {
                 return false;
             }
-            if (StringEquals(this.Headers.TryGet<string>("Connection"), "Upgrade") == false)
+            if (StringContains(this.Headers.TryGet<string>("Connection"), "Upgrade") == false)
             {
                 return false;
             }
@@ -259,6 +259,16 @@ namespace NetworkSocket.Http
         private static bool StringEquals(string value1, string value2)
         {
             return string.Equals(value1, value2, StringComparison.OrdinalIgnoreCase);
+        }
+
+        private static bool StringContains(string source, string value)
+        {
+            if (string.IsNullOrEmpty(source) || string.IsNullOrEmpty(value))
+            {
+                return false;
+            }
+
+            return source.IndexOf(value, StringComparison.OrdinalIgnoreCase) >= 0;
         }
     }
 }
